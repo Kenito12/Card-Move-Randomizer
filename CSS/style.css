@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Catamaran:wght@400;600&family=Maitree:wght@400;600&display=swap');
+
+body{
+    margin: 0;
+    background: linear-gradient(rgba(28,20,23,1) 0%, rgba(95,88,101,1) 100%);
+    background-color:black;
+    animation: fadeIn 2s;
+    height: 100vh;
+}
+
+@keyframes fadeIn{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+
+.logo{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #FEA2A2;
+    padding-left: 100px;
+    padding-top: 25px;
+    position: absolute;
+}
+
+.logoBut{
+    width: 100%;
+    height: auto;
+    padding-top: 15%;
+    margin:0 auto;
+}
+
+.log{
+    margin:0 auto;
+}
+
+
+.click{
+    color: #a6a3a5;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 15%;
+    text-align: center;
+}
+
+#canvas{
+    align-items: center;
+    text-align: center;
+
+}
+
+.moveName{
+    color:#FEA2A2;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Catamaran', sans-serif;
+    margin: 0 auto;
+    padding-top: 10%;
+    transition: all 0.3s ease;
+}
+
+iframe{
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    transition: all 0.3s ease;
+}
+
+
+.button{
+    color:#FFFDFA;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 50px;
+    background-color: #FEA2A2;
+    text-decoration: none;
+    cursor: pointer;
+    width: 176px;
+    transition: all 0.5s ease;
+}
+
+.button:hover{
+    background-color: #FFFDFA;
+    color: #FEA2A2;
+    font-weight: 700;
+    border-radius: 15px;
+}
+
+
+
+
+
+
