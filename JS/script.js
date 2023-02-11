@@ -24,5 +24,10 @@ function Randomized(){
     xhttp.send();
 }
 
+// const logo = document.getElementById("log");
+// logo.addEventListener("mouseover", (event) =>{
+//     document.getElementsById("click").style.color = "#fffdfa"
+// })
+
 
 
